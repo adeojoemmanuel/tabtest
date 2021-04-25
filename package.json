@@ -1,0 +1,26 @@
+{
+  "name": "eve",
+  "version": "1.0.0",
+  "description": "eve",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11",
+    "nodemon": "^2.0.7"
+  }
+}
